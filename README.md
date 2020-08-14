@@ -1,5 +1,5 @@
-![](https://imgur.com/eexb8zB)
-![](https://imgur.com/2mzLLmj)
+![](https://imgur.com/eexb8zB.png)
+![](https://imgur.com/2mzLLmj.png)
 
 NLW 2 Rocketseat
 -------------
