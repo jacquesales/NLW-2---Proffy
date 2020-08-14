@@ -1,0 +1,48 @@
+* { /* esta propriedade refere-se a muitos elementos */
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root { /* elemento principal/raiz da minha página inteira; definindo variáveis no HTML para que eu possa reaproveitar as cores em hexadecimal no código*/
+    --color-background: #F0F0F7;
+    --color-primary-lighter: #9871f5;
+    --color-primary-light: #916BEA;
+    --color-primary: #8257E5;
+    --color-primary-dark: #774DD6; 
+    --color-primary-darker: #6842C2;
+    --color-secondary: #04D361;
+    --color-secondary-dark: #04BF58;
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #D4C2FF;
+    --color-text-title: #32264D;
+    --color-text-complement: #9C98A6;
+    --color-text-base: #6A6180;
+    --color-line-in-white: #E6E6F0;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+    --color-snall-info: #C1BCCC;
+    font-size: 60%; /* A fonte padrão é: 16px - 100% - 1rem (% e rem são relativos a fonte do root). E o valor 60% é o padrão Mobile First - responsiva, utilizando a unidade rem sempre */
+}
+
+html, body { /* uma boa prática inserir nos dois elementos para ocupar toda a visão no documento*/
+    height: 100vh;
+}
+
+body {       
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body, input, button, textarea { /* agrupados para receber a mesma configuração */
+    font: 500 1.6rem Poppins; /* peso, tamanho e tipo de fonte */
+    color: var(--color-text-base);
+}
+
+#container {
+    width: 90vh; /* numa escla de 100 partes, o conteúdo atingirá apenas 90 */
+    max-width: 700px; /* até 700px a tela irá se adaptar a 90vh; após isso o conteúdo terá seu tamanho fixado */
+}

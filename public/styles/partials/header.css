@@ -1,0 +1,35 @@
+.page-header {
+    background: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+}
+.top-bar-container {
+    width: 88%;
+    margin: 0 auto;
+    display: flex;     
+    justify-content: space-between;
+    padding: 1.6rem 1rem;
+}
+.top-bar-container a {    
+   transition: opacity 0.2s;
+}
+.top-bar-container a:hover {
+   opacity: 0.6;
+}
+.top-bar-container > img {
+   width: 5rem;
+}
+.header-content {
+    width: 100%;
+    margin: 3.5rem 4.5rem;    
+}
+.header-content strong {    
+    font: 700 3rem Archivo;
+    line-height: 5.2rem;
+    color: var(--color-title-in-primary);
+}
+.header-content p {    
+    font-size: 1.6rem;
+    margin: .8rem auto 8rem;   
+    color: var(--color-text-in-primary);
+}
